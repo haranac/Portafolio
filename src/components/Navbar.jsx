@@ -24,7 +24,7 @@ function Navbar() {
           className="text-xl font-bold text-sky-400"
           onClick={closeMenu}
         >
-          Inicio
+          Portafolio
         </a>
 
         <ul className="hidden items-center gap-6 md:flex">
