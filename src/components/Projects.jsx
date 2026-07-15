@@ -1,5 +1,5 @@
 import CardTemplate2 from "./CardTemplate2.jsx";
-import placeholderImage from "../assets/Hero.png";
+import TetrisImage from "../assets/Tetris.png";
 import BlackjackImage from "../assets/Blackjack.png";
 
 const projects = [
@@ -15,12 +15,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Landing page responsive",
+    title: "Tetris",
     description:
-      "Sitio web adaptable para presentar un producto o servicio mediante una estructura clara, tarjetas informativas y llamadas a la acción.",
-    image: placeholderImage,
-    imageUrl: "https://segundo-proyecto.vercel.app",
-    technologies: ["React", "Tailwind CSS", "Diseño responsive"],
+      "Juego clásico de tetris utilizado para practicar en C# y desarrollo de aplicaciones de escritorio.",
+    image: TetrisImage,
+    imageUrl: "https://github.com/haranac/Tetris",
+    technologies: ["C#", "Windows Forms", "Diseño de interfaces"],
     links: [],
   },
 ];
