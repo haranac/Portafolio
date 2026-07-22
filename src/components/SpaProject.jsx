@@ -1,6 +1,6 @@
 import RecuerdaMedImage from "../assets/RecuerdaMed.png";
 
-const projectUrl = "https://haranac.github.io/RecuerdaMed/";
+const projectUrl = "https://recuerda-med-psi.vercel.app/";
 
 const features = [
   "Registro e inicio de sesión",
