@@ -29,7 +29,7 @@ function About() {
         </h2>
 
         <p className="mt-5 max-w-3xl leading-7 text-slate-400">
-          Lista de mis intereses, habilidades y áreas que me gustaría aprender en el futuro.
+          Lista de mis intereses, habilidades y áreas que me gustaría aprender / mejorar en el futuro.
         </p>
 
         <div className="mt-10 grid gap-6 md:grid-cols-3">
