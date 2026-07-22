@@ -16,10 +16,10 @@ function Hero() {
           </h2>
 
           <p className="mt-6 max-w-xl leading-7 text-slate-400">
-            Me interesa crear aplicaciones modernas, funcionales y
-            orientadas a facilitar la vida de los usuarios. Actualmente estoy
-            fortaleciendo mis conocimientos en React, JavaScript, Tailwind CSS y
-            desarrollo de aplicaciones SPA.
+            Me interesa crear aplicaciones modernas, funcionales y orientadas a
+            facilitar la vida de los usuarios. Actualmente estoy fortaleciendo
+            mis conocimientos en React, JavaScript, Tailwind CSS y desarrollo de
+            aplicaciones SPA.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -39,9 +39,9 @@ function Hero() {
           </div>
         </div>
 
-        <div className="mx-auto h-96 w-72 overflow-hidden rounded-full border-4 border-sky-500/40 bg-slate-900 shadow-2xl shadow-sky-500/10 md:h-[28rem] md:w-80">
+        <div className="mx-auto h-96 w-80 overflow-hidden rounded-full border-4 border-sky-500/40 bg-slate-900 shadow-2xl shadow-sky-500/10 md:h-[30rem] md:w-96">
           <img
-            src="ProfileImage"
+            src={ProfileImage}
             alt="Fotografía de Sergio Ricardo Leal García"
             className="h-full w-full object-cover object-center"
           />
