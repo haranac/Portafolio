@@ -39,11 +39,11 @@ function Hero() {
           </div>
         </div>
 
-        <div className="mx-auto h-64 w-64 overflow-hidden rounded-full border-4 border-sky-500/40 bg-slate-900 shadow-2xl shadow-sky-500/10 md:h-72 md:w-72">
+        <div className="mx-auto h-96 w-72 overflow-hidden rounded-full border-4 border-sky-500/40 bg-slate-900 shadow-2xl shadow-sky-500/10 md:h-[28rem] md:w-80">
           <img
-            src={ProfileImage}
-            alt="Fotografía de perfil"
-            className="h-full w-full object-cover"
+            src="/ruta-de-tu-foto.jpg"
+            alt="Fotografía de Sergio Ricardo Leal García"
+            className="h-full w-full object-cover object-center"
           />
         </div>
       </div>
