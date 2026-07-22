@@ -27,11 +27,6 @@ function About() {
         <h2 className="mt-2 text-3xl font-bold text-slate-100 sm:text-4xl">
           Sobre mí
         </h2>
-
-        <p className="mt-5 max-w-3xl leading-7 text-slate-400">
-          Lista de mis intereses, habilidades y áreas que me gustaría aprender / mejorar en el futuro.
-        </p>
-
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {aboutItems.map((item, index) => (
             <article
